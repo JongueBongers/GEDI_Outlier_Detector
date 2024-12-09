@@ -25,13 +25,14 @@ The repository contains Jupyter notebooks for data preprocessing, visualization,
 All visualizations and processed model outputs are located in the `GEDI_outputs` folder.
 
 ### 3. Data Reference
-The GEDI data files used for this project are not included in the repository due to size constraints but can be accessed via NASA's [GEDI website](https://gedi.nasa.gov/). Below is a list of the datasets used:
+The GEDI data files used for this project are not included in the repository due to size constraints but can be accessed via NASA's [Earthdata Cloud](https://www.earthdata.nasa.gov). Below is a list of the datasets used:
 - `GEDI01_B_2022004042652_O17343_04_T10772_02_005_02_V002.h5`
 - `GEDI01_B_2022207041426_O20491_04_T09293_02_005_03_V002.h5`
 - `GEDI02_A_2021050140102_O12405_02_T10912_02_003_02_V002.h5`
 - `GEDI02_A_2021086153349_O12964_03_T08275_02_003_02_V002.h5`
 - `GEDI04_A_2021009022644_O11762_03_T01637_02_002_02_V002.h5`
 - `GEDI04_A_2022106075705_O18927_04_T10647_02_003_01_V002.h5`
+You can also download these files directly from my Google Drive [here](https://drive.google.com/drive/folders/1H-NVGvDSt2nu4VFfeTGVTVHJTP_YgXJw?usp=sharing).
 
 ## Future Work
 - Implement automatic labeling algorithms for newly collected ground truth data.
