@@ -43,12 +43,12 @@ Be sure to create an `Input_files` folder and keep these files in there for the 
 ## Feb. 18, 2025 Notes
 - For the next phase of the project, we want to predict the difference in AGBD between real GEDI and corresponding simulated waveforms at the same location using ancillary data from GEDI data products.
 - **Approach**: There is a list of shot numbers and ALS data (these are the GEDI-ALS crossovers). Filtering has been applied to the current crossover data set, so that the crossovers are “good” matches. This might need to be revisited. A challenge is that GEDI and simulated waveforms can differ for two reasons: (1) an outlier or (2) geolocation error. Filtering using the correlation coefficient addresses both of these issues, but means that the crossover dataset does not contain extreme outliers. This might be fine, and seems better than the situation where we have differences in AGBD that are due to geolocation error, not outliers.
-# Immediate Next Steps:
+### Immediate Next Steps:
   - I will write scripts to read in a GEDI01_B files, GEDI02_A files and GEDI04_A files and determine whether they contain matches to any of the shot numbers inside the ALS crossover file.
   - If matches exist, the scripts will pull all data for that shot number from the matching file and write the output.
   - After this works on a single file, we will distribute the job on OSCAR.
   - We will need to avoid redundant output. Many of the variables are repeated among the files.
   - Fit models to predict the difference (AGBD_ALS – AGBD_GEDI) as a function of ancillary variables
-# Things to watch out for:
+### Things to watch out for:
 Shot numbers must be read correctly. They sometimes contain leading zeros, so if they are read as numbers they will be incorrect. I use “bit64” to handle them.
 We will need to convert text variables into dummy variables or numbers. For example, beam and channel should be one hot encoded. Dates should be expressed as the number of days since the start of the mission.
