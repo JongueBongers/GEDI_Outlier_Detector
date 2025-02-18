@@ -32,9 +32,10 @@ The GEDI data files used for this project are not included in the repository due
 - `GEDI02_A_2021086153349_O12964_03_T08275_02_003_02_V002.h5`
 - `GEDI04_A_2021009022644_O11762_03_T01637_02_002_02_V002.h5`
 - `GEDI04_A_2022106075705_O18927_04_T10647_02_003_01_V002.h5`
+- `GEDI_ALSCROSSOVERS.csv`
 
 You can also download these files directly from my Google Drive [here](https://drive.google.com/drive/folders/1H-NVGvDSt2nu4VFfeTGVTVHJTP_YgXJw?usp=sharing).
-Be sure to keep the files in the `GEDI_sample_files` folder for the models to work correctly.
+Be sure to create an `Input_files` folder and keep these files in there for the models to work correctly.
 
 ## Future Work
 - Implement automatic labeling algorithms for newly collected ground truth data.
