@@ -12,7 +12,7 @@ The objective of this project is to filter invalid and noisy lidar waveforms col
 ### Highlights
 - **Preprocessing**: Cleaned and visualized waveform data, following NASA tutorials.
 - **Machine Learning Models**: Implemented Gaussian Mixture Models, Isolation Forests, and **novel methods based on PCA and autoencoders** for unsupervised outlier detection.
-- **Next Steps***: Currently designing **regression, random forest and deep learning models** to identify outlier covariates in 1 million labeled points (ALS crossover data), validate unsupervised models, and advise future waveform preprocessing strategies.
+- **Next Steps**: Currently designing **regression, random forest and deep learning models** to identify outlier covariates in 1 million labeled points (ALS crossover data), validate unsupervised models, and advise future waveform preprocessing strategies.
 
 ## Repository Contents
 
@@ -38,7 +38,7 @@ Be sure to create an `Input_files` folder and keep these files in there for the 
 ## Future Work
 - Subset GEDI files for overlap with ground truth ALS crossover data.
 - Implement automatic labeling algorithms for newly collected ground truth data.
-- Explore semi-supervised learning techniques, Bayesian models, and neural networks for improved classification.
+- Explore **semi-supervised learning** techniques for improved accuracy and generalizability.
 
 ## Feb. 18, 2025 Notes
 - For the next phase of the project, we want to **predict the difference in AGBD** between real GEDI and corresponding simulated waveforms at the same location using ancillary data from GEDI data products.
